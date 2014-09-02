@@ -16,7 +16,7 @@
 #define INDICATIVE_TIMEOUT_SECONDS 30
 #define SEND_EVENTS_INTERVAL_SECONDS 60
 #define INDICATIVE_BATCH_SIZE 100
-#define INDICATIVE_DEBUG true
+#define INDICATIVE_DEBUG false
 
 static Indicative* mIndicative = nil;
 

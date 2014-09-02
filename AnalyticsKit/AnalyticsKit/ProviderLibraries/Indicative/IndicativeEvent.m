@@ -76,34 +76,4 @@
     return data;
 }
 
-/**
- * Adds a property name/value pair to the properties NSMutableDictionary, gracefully handling nil property values.
- *
- * @param propertyName      the name of the event
- * @param propertyValue     a unique identifier for the user associated with the event
- *
- * @returns the modified Event
- */
-
-//-(IndicativeEvent*)addProperty:(NSString*)propertyName withValue:(id)propertyValue {
-//    if(!propertyName) {
-//        NSLog(@"Indicative property name was nil, not recording property");
-//        return self;
-//    }
-//    
-//    if (!([propertyValue isKindOfClass:NSString.class] || [propertyValue isKindOfClass:NSNumber.class])) {
-//        if(!propertyValue){
-//            [self.properties setObject: @"null" forKey:propertyName];
-//            return self;
-//        }
-//        
-//        NSLog(@"Indicative property value was not an NSString or NSNumber, not recording property named %@", propertyName);
-//        return self;
-//    }
-//    
-//    [self.properties setObject: propertyValue ? propertyValue : [NSNull null] forKey:propertyName];
-//
-//    return self;
-//}
-
 @end

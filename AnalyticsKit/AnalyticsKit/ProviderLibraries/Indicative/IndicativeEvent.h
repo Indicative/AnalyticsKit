@@ -21,6 +21,4 @@
                   withUniqueId:(NSString*)uniqueId
                 withProperties:(NSDictionary*)properties;
 
-//-(IndicativeEvent*)addProperty:(NSString*)propertyName withValue:(id)propertyValue;
-
 @end
