@@ -15,6 +15,7 @@
 #import "AnalyticsKitDebugProvider.h"
 #import "AnalyticsKitFlurryProvider.h"
 #import "AnalyticsKitGoogleAnalyticsProvider.h"
+#import "AnalyticsKitIndicativeProvider.h"
 #import "AnalyticsKitLocalyticsProvider.h"
 #import "AnalyticsKitMixpanelProvider.h"
 #import "AnalyticsKitNewRelicProvider.h"
@@ -42,6 +43,7 @@
                            [[AnalyticsKitNewRelicProvider alloc] initWithAPIKey:nil],
                            [[AnalyticsKitParseProvider alloc] initWithApplicationId:@"x" clientKey:@"y"],
                            [[AnalyticsKitTestFlightProvider alloc] initWithAPIKey:nil],
+                           [[AnalyticsKitIndicativeProvider alloc] initWithAPIKey:nil],
                            [AnalyticsKitUnitTestProvider new]
                            ];
     [AnalyticsKit initializeLoggers:providers];
