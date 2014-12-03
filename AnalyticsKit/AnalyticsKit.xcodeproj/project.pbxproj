@@ -79,10 +79,9 @@
 		9C5DE4B5194A609500C4C938 /* LocalyticsSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DE4A8194A5FDF00C4C938 /* LocalyticsSession.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9C5DE4B6194A609500C4C938 /* LocalyticsUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DE4AB194A5FDF00C4C938 /* LocalyticsUploader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9C5DE4B7194A609500C4C938 /* LocalyticsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DE4AD194A5FDF00C4C938 /* LocalyticsUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C8834D911A2F6003002EDADE /* Indicative.m in Sources */ = {isa = PBXBuildFile; fileRef = C8834D8E1A2F6003002EDADE /* Indicative.m */; };
+		C8834D921A2F6003002EDADE /* IndicativeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C8834D901A2F6003002EDADE /* IndicativeEvent.m */; };
 		C8F3513F19B64B3B0055D1CF /* AnalyticsKitIndicativeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F3513E19B64B3B0055D1CF /* AnalyticsKitIndicativeProvider.m */; };
-		C8F3516F19B674C80055D1CF /* Indicative.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F3516A19B674C80055D1CF /* Indicative.m */; };
-		C8F3517019B674C80055D1CF /* IndicativeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F3516C19B674C80055D1CF /* IndicativeEvent.m */; };
-		C8F3517119B674C80055D1CF /* IndicativeODIN.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F3516E19B674C80055D1CF /* IndicativeODIN.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,14 +232,12 @@
 		9C5DE4AB194A5FDF00C4C938 /* LocalyticsUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalyticsUploader.m; sourceTree = "<group>"; };
 		9C5DE4AC194A5FDF00C4C938 /* LocalyticsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsUtil.h; sourceTree = "<group>"; };
 		9C5DE4AD194A5FDF00C4C938 /* LocalyticsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalyticsUtil.m; sourceTree = "<group>"; };
+		C8834D8D1A2F6003002EDADE /* Indicative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indicative.h; sourceTree = "<group>"; };
+		C8834D8E1A2F6003002EDADE /* Indicative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Indicative.m; sourceTree = "<group>"; };
+		C8834D8F1A2F6003002EDADE /* IndicativeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicativeEvent.h; sourceTree = "<group>"; };
+		C8834D901A2F6003002EDADE /* IndicativeEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicativeEvent.m; sourceTree = "<group>"; };
 		C8F3513D19B64B3B0055D1CF /* AnalyticsKitIndicativeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsKitIndicativeProvider.h; sourceTree = "<group>"; };
 		C8F3513E19B64B3B0055D1CF /* AnalyticsKitIndicativeProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsKitIndicativeProvider.m; sourceTree = "<group>"; };
-		C8F3516919B674C80055D1CF /* Indicative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indicative.h; sourceTree = "<group>"; };
-		C8F3516A19B674C80055D1CF /* Indicative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Indicative.m; sourceTree = "<group>"; };
-		C8F3516B19B674C80055D1CF /* IndicativeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicativeEvent.h; sourceTree = "<group>"; };
-		C8F3516C19B674C80055D1CF /* IndicativeEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicativeEvent.m; sourceTree = "<group>"; };
-		C8F3516D19B674C80055D1CF /* IndicativeODIN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicativeODIN.h; sourceTree = "<group>"; };
-		C8F3516E19B674C80055D1CF /* IndicativeODIN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicativeODIN.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,7 +316,7 @@
 				9C0EF32218E0DB7F00D19A2C /* ApSalar */,
 				9C0EF32418E0DB7F00D19A2C /* Flurry */,
 				9C0EF30F18E0D0FE00D19A2C /* Crashlytics */,
-				C8F3516819B674C80055D1CF /* Indicative */,
+				C8834D8C1A2F6003002EDADE /* Indicative */,
 			);
 			name = ProviderLibraries;
 			sourceTree = "<group>";
@@ -728,6 +725,18 @@
 			name = Crashlytics;
 			sourceTree = "<group>";
 		};
+		C8834D8C1A2F6003002EDADE /* Indicative */ = {
+			isa = PBXGroup;
+			children = (
+				C8834D8D1A2F6003002EDADE /* Indicative.h */,
+				C8834D8E1A2F6003002EDADE /* Indicative.m */,
+				C8834D8F1A2F6003002EDADE /* IndicativeEvent.h */,
+				C8834D901A2F6003002EDADE /* IndicativeEvent.m */,
+			);
+			name = Indicative;
+			path = ProviderLibraries/Indicative;
+			sourceTree = "<group>";
+		};
 		C8F3513C19B64B3B0055D1CF /* Indicative */ = {
 			isa = PBXGroup;
 			children = (
@@ -735,20 +744,6 @@
 				C8F3513E19B64B3B0055D1CF /* AnalyticsKitIndicativeProvider.m */,
 			);
 			path = Indicative;
-			sourceTree = "<group>";
-		};
-		C8F3516819B674C80055D1CF /* Indicative */ = {
-			isa = PBXGroup;
-			children = (
-				C8F3516919B674C80055D1CF /* Indicative.h */,
-				C8F3516A19B674C80055D1CF /* Indicative.m */,
-				C8F3516B19B674C80055D1CF /* IndicativeEvent.h */,
-				C8F3516C19B674C80055D1CF /* IndicativeEvent.m */,
-				C8F3516D19B674C80055D1CF /* IndicativeODIN.h */,
-				C8F3516E19B674C80055D1CF /* IndicativeODIN.m */,
-			);
-			name = Indicative;
-			path = ProviderLibraries/Indicative;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -853,9 +848,9 @@
 				9C0EF31A18E0D1CB00D19A2C /* AnalyticsKitTestFlightProvider.m in Sources */,
 				9C379A0A18183A6B00488101 /* AnalyticsKit.m in Sources */,
 				9C0EF38F18E0F51500D19A2C /* Mixpanel.m in Sources */,
-				C8F3517119B674C80055D1CF /* IndicativeODIN.m in Sources */,
 				9C0EF3AD18E0FC0800D19A2C /* AnalyticsKitLocalyticsProvider.m in Sources */,
 				9C0EF35B18E0ED4C00D19A2C /* NSString+AIAdditions.m in Sources */,
+				C8834D911A2F6003002EDADE /* Indicative.m in Sources */,
 				9C0EF31718E0D1B800D19A2C /* AnalyticsKitMixpanelProvider.m in Sources */,
 				9C379A1B1818507A00488101 /* AnalyticsKitCrashlyticsProvider.m in Sources */,
 				9C5DE4B6194A609500C4C938 /* LocalyticsUploader.m in Sources */,
@@ -869,7 +864,6 @@
 				9C0EF3A218E0F57E00D19A2C /* ODIN.m in Sources */,
 				9C0EF35E18E0ED4C00D19A2C /* AILogger.m in Sources */,
 				9C379A0C18183A6B00488101 /* AnalyticsKitEvent.m in Sources */,
-				C8F3517019B674C80055D1CF /* IndicativeEvent.m in Sources */,
 				9C0EF35618E0ED4C00D19A2C /* AIActivityHandler.m in Sources */,
 				9C0EF36418E0ED4C00D19A2C /* AIUtil.m in Sources */,
 				9C0EF35D18E0ED4C00D19A2C /* AIAdjustFactory.m in Sources */,
@@ -880,7 +874,6 @@
 				9C379A0E18183A6B00488101 /* NSNumber+Buckets.m in Sources */,
 				9C5DE4B7194A609500C4C938 /* LocalyticsUtil.m in Sources */,
 				9C0EF39F18E0F57E00D19A2C /* MPCJSONSerializer.m in Sources */,
-				C8F3516F19B674C80055D1CF /* Indicative.m in Sources */,
 				9C3799BE181838FD00488101 /* AnalyticsKitAppDelegate.m in Sources */,
 				9C0EF31918E0D1C500D19A2C /* AnalyticsKitParseProvider.m in Sources */,
 				9C0EF35518E0ED4C00D19A2C /* Adjust.m in Sources */,
@@ -889,6 +882,7 @@
 				9C3799BA181838FD00488101 /* main.m in Sources */,
 				9C0EF35718E0ED4C00D19A2C /* AIActivityKind.m in Sources */,
 				9C0EF36318E0ED4C00D19A2C /* AITimer.m in Sources */,
+				C8834D921A2F6003002EDADE /* IndicativeEvent.m in Sources */,
 				9C379A0B18183A6B00488101 /* AnalyticsKitDebugProvider.m in Sources */,
 				9C0EF31518E0D1AD00D19A2C /* AnalyticsKitGoogleAnalyticsProvider.m in Sources */,
 				9C0EF31218E0D19300D19A2C /* AnalyticsKitAdjustIOProvider.m in Sources */,
