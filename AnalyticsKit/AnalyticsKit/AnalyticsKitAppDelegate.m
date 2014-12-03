@@ -9,11 +9,15 @@
 #import "AnalyticsKitAppDelegate.h"
 #import "AnalyticsKit.h"
 #import "AnalyticsKitDebugProvider.h"
+#import "AnalyticsKitIndicativeProvider.h"
 
 @implementation AnalyticsKitAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [AnalyticsKit initializeLoggers:@[[AnalyticsKitDebugProvider new]]];
+    AnalyticsKitDebugProvider *debug = [AnalyticsKitDebugProvider new];
+    AnalyticsKitIndicativeProvider *indicative = [[AnalyticsKitIndicativeProvider alloc] initWithAPIKey:@"API_KEY_HERE"];
+    
+    [AnalyticsKit initializeLoggers:@[debug, indicative]];
     [AnalyticsKit logEvent:@"App started"];
     return YES;
 }
