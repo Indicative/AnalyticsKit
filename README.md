@@ -1,5 +1,8 @@
+
 [![Build Status](https://travis-ci.org/twobitlabs/AnalyticsKit.svg?branch=master)](https://travis-ci.org/twobitlabs/AnalyticsKit)
 [![Gitter chat](https://badges.gitter.im/twobitlabs/AnalyticsKit.png)](https://gitter.im/twobitlabs/AnalyticsKit)
+
+<img src="https://s3.amazonaws.com/static.indicative.com/assets/companies/indicative-v2/png/Logo-Dark.png" width="250" >
 
 # AnalyticsKit
 
